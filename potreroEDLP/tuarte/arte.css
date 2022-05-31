@@ -1,5 +1,5 @@
-body{background-color: red}
-body{background-image: url(../fondos/fondoempanada.jpg);
+body{background-color: purple}
+
 
 
 h2{text-decoration: overline;}
@@ -7,16 +7,47 @@ h1{text-decoration: overline;}
 img{width: auto;}
 ol{transform-origin: center;}
 ul{transform-origin: center;}
-p{font-size: medium}
-
-#Titulo {background-color: black}
 
 
-.sociales{
-  text-align: center;
-  padding-top:40px;
+
+header {background-color: red;
 
 }
 
+section{background-color: white;
+width: 48%;
+float: left;
+margin: 1%;
+padding: 5px;
+box-sizing: border-box;
+height: 292px;
+overflow: auto;
+}
 
-.lista{color: white}
+aside{background-color: white;
+  width: 48%;
+  float: left;
+  margin-bottom: 1%;
+padding: 5px;
+box-sizing: border-box;
+height: 290px;
+box-sizing: border-box;
+overflow: auto;
+}
+
+footer{background-color: orange;
+clear: both;
+margin: 1%;
+border: 3px solid black;
+overflow: auto;
+}
+
+img:hover {
+  width: 40%;
+  border-radius: 30%;
+}
+
+li:hover{
+  background-color: red;
+
+}
